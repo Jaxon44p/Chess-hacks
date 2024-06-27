@@ -9325,7 +9325,7 @@ Bridge.assembly("ChessCompStompWithHacks", function ($asm, globals) {
              * @return  {number}
              */
             GetTotalNumberOfHackPoints: function () {
-                var initialNumberOfHackPoints = 10;
+                var initialNumberOfHackPoints = 10000000000000000000000000;
 
                 var numberOfPointsFromWins = Bridge.Int.mul(this.data.NumberOfWins, ChessCompStompWithHacksLibrary.SessionState.NUMBER_OF_HACK_POINTS_PER_WIN);
 
